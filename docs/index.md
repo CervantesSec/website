@@ -1,6 +1,6 @@
 ---
 template: home.html
-title: Cervantes
+title: Home
 ---
 
   
