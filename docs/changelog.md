@@ -1,0 +1,64 @@
+# Changelog
+
+## Alpha 0.5
+
+**Note**: This is a alpha release. Please file new issues for any bugs you find in it.
+
+### Changes
+- Multilanguage Improvements
+- Notifications Improvements
+- SMTP Email support
+- Minor bug fixes
+- Fixed UI Bugs
+- Checklists support OWASP MASTG & WSTG
+- Report compliance OWASP WSTG & MASTG
+- Implemented OWASP Score
+- Basic Jira Integration
+- Import vulns from CSV
+- Data Vault Added
+- Vuln Id Autogeneration
+- Added Executive Summary Section
+- Dark Mode Implemented
+
+And more…
+
+## Alpha 0.4
+
+**Note**: This is a alpha release. Please file new issues for any bugs you find in it.
+
+### Changes
+- Report Generation Reworked
+- Nmap Parser
+- Import XML nmap scans
+- Added Email Service
+- Search Module
+- Fixed Application Logs
+- Project Languages
+-  Language
+- Minor bug fixes
+- Fixed UI Bugs
+- Security Improvements
+- Account Lockout Implementation
+- Implemented Anti-XSS
+- File Validation
+
+And more…
+
+## Alpha 0.3
+
+**Note**: This is a alpha release. Please file new issues for any bugs you find in it.
+
+### Changes
+- Reformat Data Model
+- Added Backup/Resore system
+- Added Data Vault on Workspace
+- Added feature to assign various targets to one vulnerability
+- Added feature to added various targets to one task
+- Project/Vuln Templates Improvements
+- Fixed Login verification
+- User creation improvements
+- Fixed Date picker on Project/Task creation
+- Fixed ORM problem on duplicate IDs
+- Fixed minor UI bugs
+- Minor UI Improvements
+- Fixed. verification on some forms

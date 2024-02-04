@@ -1,0 +1,181 @@
+site_name: Cervantes
+site_author: Ruben Mesquida
+site_url: https://example.com
+site_description: >-
+  Cervantes is an open-source, collaborative platform designed specifically for pentesters and red teams. It serves as a comprehensive management tool, streamlining the organization of projects, clients, vulnerabilities, and reports in a single, centralized location. By facilitating efficient data management and providing a unified workspace, Cervantes aims to significantly reduce the time and effort required in the coordination and execution of penetration testing activities.
+
+# Copyright
+copyright: Copyright &copy; Ruben Mesquida 2016 - 2024 OWASP Cervantes
+
+
+# Repository
+repo_name: CervantesSec/cervantes
+repo_url: https://github.com/CervantesSec/cervantes
+
+#Theme
+theme:
+  name: material
+  logo: assets/logo.png
+  custom_dir: overrrides
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.footer
+    - search
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference  
+  font:
+    text: Roboto
+    code: Roboto Mono
+    favicon: assets/favicon.ico
+          
+
+# Additional configuration
+extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CervantesSec
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/owasp-cervantes/ 
+    - icon: fontawesome/regular/compass
+      link: https://owasp.org/www-project-cervantes/
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/repository/docker/mesq/cervantes/general
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:ruben.mesquida@owasp.org
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/BvzNjT3Qzc
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Cervantes_Sec
+  consent:
+    #title: Cookie consent
+    #description: >-
+      #We use cookies to recognize your repeated visits and preferences, as well
+      #as to measure the effectiveness of our documentation and whether users
+      #find what they're searching for. With your consent, you're helping us to
+      #make our documentation better.    
+  #alternate:
+    #- name: English
+      #link: /en/
+      #lang: en
+    #- name: Spanish
+      #link: /es/
+      #lang: es
+  generator: false
+      
+markdown_extensions:
+
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde      
+# Plugins
+plugins:
+  - search
+  - tags
+  - social
+  - offline
+  - render_swagger
+
+nav:
+  - Home: index.md
+  - Features: features.md
+  - Getting started:
+    - Installation: getting-started/index.md
+    - Default User and Password: getting-started/password.md
+    - Https: getting-started/https.md  
+    - Integrations: getting-started/integrations.md
+    - Kestrel: getting-started/kestrel.md  
+  - Guide:
+    - guide/index.md
+    - Dashboard: guide/dashboard.md
+    - Profile: guide/profile.md
+    - Calendar: guide/calendar.md  
+    - Clients: guide/clients.md
+    - Projects: guide/projects.md
+    - Workspaces: guide/workspaces.md  
+    - Tasks: guide/tasks.md  
+    - Vulnerabilities: guide/vulns.md
+    - Jira: guide/jira.md
+    - Knowledge Base: guide/knowledge-base.md
+    - Documents: guide/documents.md
+    - Notes: guide/notes.md
+    - Targets: guide/targets.md
+    - Vaults: guide/vaults.md
+    - Checklists: guide/checklists.md  
+    - Report Templates: guide/templates.md
+    - Report Components: guide/components.md  
+    - Logs: guide/logs.md
+    - Jobs: guide/jobs.md
+    - Backup: guide/backup.md
+    - Organization: guide/organization.md
+    - Users: guide/users.md
+    - Roles: guide/roles.md
+  - FAQ: faq.md
+  - Reference:
+    - reference/index.md
+    - Editor Syntax: reference/syntax.md
+    - General Reports Reference: reference/general.md
+    - WSTG Reports Reference: reference/wstg.md
+    - MASTG Reports Reference: reference/mastg.md
+    - API Reference: reference/api.md
+  - Contribute: contribute.md
+  - Changelog: changelog.md
+  - License: license.md  
+  - Thanks To:
+    - thanks/index.md
+    - Contributors: thanks/contributors.md
+    - Libraries: thanks/libraries.md  
+  - Contact Us: contact.md
