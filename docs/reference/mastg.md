@@ -1,6 +1,6 @@
 # OWASP MASTG Report Reference
 
-## Handlebars Variables Reference
+## Variables Reference
 
 ### General
 

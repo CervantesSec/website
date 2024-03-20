@@ -1,6 +1,6 @@
 # OWASP WSTG Report Reference
 
-## Handlebars Variables Reference
+## Variables Reference
 
 ### General
 
