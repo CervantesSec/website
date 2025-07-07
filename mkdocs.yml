@@ -163,6 +163,9 @@ nav:
     - Organization: guide/organization.md
     - Users: guide/users.md
     - Roles: guide/roles.md
+    - OpenIDConnect: guide/openid-connect.md
+    - Ldap: guide/ldap.md  
+    - Custom Fields: guide/vuln-custom-fields.md
   - FAQ: faq.md
   - Reference:
     - reference/index.md

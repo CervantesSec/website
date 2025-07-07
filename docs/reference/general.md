@@ -169,6 +169,25 @@ The following variables are available for the total number of vulnerabilities (n
 | `{{VulnInfoCount}}`     | The number of info vulnerabilities inside the project     |
 | `{{VulnTotalCount}}`    | The total number of vulnerabilities inside the project    |
 
+## Vuln Custom Fields Syntax
+
+Custom fields in vulnerability reports extend the standard vulnerability data. Use the following syntax to include custom fields in your reports:
+
+### Basic Syntax
+  ```liquid
+  {{VulnCustom[FieldName]}}
+
+  Examples
+
+  - {{VulnCustomExternal_Reference}} - External reference number
+  - {{VulnCustomBusiness_Impact}} - Business impact assessment
+  - {{VulnCustomRemediation_Deadline}} - Remediation deadline date
+
+  
+```
+
+Note: Field names are converted by replacing spaces and special characters with underscores.
+
 ### Tasks
 
 Tasks comes in an array. So you need yo use the `{{for task in Tasks}}` and `{{end}}` to loop over the array.
